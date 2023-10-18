@@ -1,0 +1,7 @@
+<apex:page controller="GoogleDriveController">
+    <apex:form >
+        <apex:messages />
+        <apex:inputFile value="{!fileBody}" filename="{!fileName}" />
+        <apex:commandButton value="Upload to Google Drive" action="{!upload}" />
+    </apex:form>
+</apex:page>
